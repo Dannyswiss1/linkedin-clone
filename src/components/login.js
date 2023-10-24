@@ -25,7 +25,7 @@ const Login = (props) => {
           <Google onClick={() => props.signIn()}>
             <img src="images/google.svg" alt="" />
             {/* Sign in with Google */}
-            <a href="Home">Sign in with Google</a>
+            <a href="/home">Sign in with Google</a>
           </Google>
         </Form>
       </Section>
