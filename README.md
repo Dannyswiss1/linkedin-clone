@@ -52,3 +52,7 @@ This is a clone of the real-world linkedin app. It has full functionalities of r
 
     ### License
      This project is licensed under the MIT License - see the LICENSE file for details.
+
+   ### Project by:
+       Joseph Daniel Tiya (Dannyswiss)
+       @Tiya_JD (X handle)
