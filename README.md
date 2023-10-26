@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Linkedin-clone App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot from 2023-10-26 13-12-06](https://github.com/Dannyswiss1/linkedin-clone/assets/137540755/5df50eb4-cc89-4ebb-a9f7-d8f922e1f7aa)
 
-## Available Scripts
+![Screenshot from 2023-10-26 13-10-19](https://github.com/Dannyswiss1/linkedin-clone/assets/137540755/8efb481e-21c3-4fc5-9de0-1716bb11b055)
 
-In the project directory, you can run:
+![Screenshot from 2023-10-26 13-10-59](https://github.com/Dannyswiss1/linkedin-clone/assets/137540755/0cab3fc9-98ca-4c0f-a3ad-23a364be617e) 
 
-### `npm start`
+![Screenshot from 2023-10-26 13-10-43](https://github.com/Dannyswiss1/linkedin-clone/assets/137540755/01d246d5-92d6-4903-9571-9b2ebc1c5b6c)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot from 2023-10-26 13-11-29](https://github.com/Dannyswiss1/linkedin-clone/assets/137540755/d0e9a1e9-169c-4bce-a811-57acd98283f7)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a clone of the real-world linkedin app. It has full functionalities of real world app including a sign in with google authentication. It consist of 2 main components: Login and Home-page, others are Header, Leftside, Main and Rightside which are sub-components of the main components. The App is fully responsive to any size device.
 
-### `npm test`
+## Table of Contents
+ * Installation
+ * Usage
+ * Folder Structure
+ * Contributing
+ * License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ### Installation
+     1. Clone this repository to your local machine:
+     `git clone https://github.com/dannyswiss1/linkedin-clone.git`
+     2. Navigate to the project folder: cd `linkedin-clone`
+     3. Install the required dependencies `npm install`
+     4. Start the development server `npm start`
 
-### `npm run build`
+    ### Usage
+     Once the app is running, open your web browser and navigate to `http://localhost:3000`, the page will be running live there.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ### Folder Structure
+     * src/
+       * actions
+       * components
+       * reducers
+       * store
+       * `App.css`: CSS styles for the app
+       * `App.js`: The main app component that imports and composes the the other components and files
+       * `firebase.js`
+       * `index.css`
+       * `index.js`: Entry point of the application
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ### Contributing
+     If you'd like to contribute to this project, please follow these steps:
+     1. Fork the repository on GitHub.
+     2. Clone your fork to your local machine.
+     3. Create a new branch for your feature or bug fix.
+     4. Make your changes and commit them with descriptive commit messages.
+     5. Push your changes to your fork on GitHub.
+     6. Create a pull request to merge your changes into the main repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    ### License
+     This project is licensed under the MIT License - see the LICENSE file for details.
